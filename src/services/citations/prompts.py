@@ -1,4 +1,7 @@
-with open("/Users/user/git/personal/legalco/IndigoBook_escaped.md", "r") as f:
+from src.lib.constants import PROJECT_ROOT
+
+
+with open(PROJECT_ROOT / "IndigoBook_escaped.md", "r") as f:
     INDIGO_BOOK = f.read()
 
 
